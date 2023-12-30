@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="blackjack.css" rel="stylesheet">
+    <script src="blackjackthree.js"></script>
+    <link rel="icon" href="images/icon.webp">
+    <title>Blackjack</title>
+</head>
+<body>
+    <h1> BLACKJACK </h1>
+
+    <p id="desc">  You take your place at the table and get two cards, face up. The dealer also gets two cards, but one is face down. Your task is to either get a total closer to 21 than the dealer without going over (busting), or to stand on a total and hope that the dealer busts or gets fewer than you.</p>
+    
+    <h3> GOOD LUCK! </h3>
+
+    <button onclick="enter()" id="enter">Enter!</button>
+    
+
+    <p id="text"></p>
+    <p id="moneyAmount"></p>
+    <p id="betInst"></p>
+
+
+    <input id="bet" type="text">
+
+    <br><br>
+    <button onclick="placeBet()" id="placeBet">Place Bet</button>
+    <br><br>
+
+    <button id="hitButt" onclick="hit()"> Hit </button>
+    <button id="standButt" onclick="stand()"> Stand </button>
+
+    <p id="hitText"></p>
+
+    <img id="playerFirstCard" src="images/starterImg.png"></img>
+    <img id="playerSecondCard" src="images/starterImg.png"></img>
+    <img id="cardImages" src="images/starterImg.png"></img>
+    <br>
+    <img id="dealerCards" src="images/starterImg.png"></img>
+    <img id="dealerFaceDown" src="images/starterImg.png"></img>
+    <img id="dealerExtraCard" src="images/starterImg.png"></img>
+
+    <p id="ace"></p>
+
+    <button onclick="aceOne()" id="oneor11"> 1 </button>
+    <button onclick="ace11()" id="oneor11too"> 11 </button>
+
+    <p id="winOrLose"></p>
+    <p id="stand"></p>
+    <p id="roundEnd"></p>
+
+    <button onclick="startOver()" id="startOver">Try Again?</button>
+</body>
+</html>
