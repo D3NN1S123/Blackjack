@@ -1,0 +1,209 @@
+body{
+    /*background: linear-gradient(90deg, rgb(3, 62, 35) 0%, rgb(8, 132, 66) 0%, rgb(12, 246, 121) 100%); */
+  
+   margin: 0;
+   background: rgb(9,41,51);
+   background: radial-gradient(circle, rgba(9,41,51,1) 0%, rgba(7,28,68,1) 100%);  
+}
+
+@font-face{
+    font-family: bjFont;
+    src: url(fonts/AnandaBlackPersonalUseRegular-rg9Rx.ttf);
+}
+
+#signUp{
+    margin-top: 2px;
+    margin-bottom: 1.5px;
+    font-size: 14px;
+    width: 90px;
+    color: white;
+    background: rgb(0, 133, 241);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+#logIn{
+    margin-top: 28px;
+    margin-left: 950px;
+    margin-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+#signUp:hover{
+    background: rgb(0, 114, 207); 
+    transition-duration: 0.3s;
+}
+
+#signUp:not(:hover){
+    background: rgb(0, 133, 241); 
+    transition-duration: 0.3s;
+}
+
+#signUp{
+    display:inline;
+    padding: 10px;
+    padding-top: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.rules{
+    margin-top: 90px;
+    padding-left:400px;
+    padding-right: 400px;
+    color: white;
+    padding:none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .actualGame{
+    background-color:rgb(8, 29, 36);
+    padding: 50px;
+    margin-right: 300px;
+    margin-left: 300px;
+    border-radius: 10px;
+    padding-bottom: 400px;
+}
+
+.gameplay{
+    
+    background-color: rgb(23,62,74);
+    
+    padding: 30px;
+    padding-bottom: 400px; 
+
+    text-align: center; 
+    box-shadow:  0 0 1px 2px rgb(26, 25, 25);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+} */
+
+#bet{
+    padding: 5px;
+    width: 300px;
+}
+
+header{
+    
+    position: fixed;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow:  0 4px 4px 0 rgb(29, 28, 28);
+    
+    background: rgb(23,62,74);
+    background: linear-gradient(90deg, rgba(23,62,74,1) 0%, rgba(10,59,64,1) 100%);  
+    
+}
+
+
+
+
+
+#enter{
+    background: rgb(67, 83, 90);
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    box-shadow:  0 4px 4px 0 rgb(29, 28, 28);
+}
+
+#placeBet{
+    background: rgb(67, 83, 90);
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    box-shadow:  0 4px 4px 0 rgb(29, 28, 28);
+}
+
+#enter:hover{
+    background: rgb(92, 115, 124);
+    transition-duration: 0.3s;
+}
+
+#enter:not(:hover){
+    background: rgb(67, 83, 90); 
+    transition-duration: 0.3s;
+}
+
+#placeBet:hover{
+    background: rgb(92, 115, 124);
+    transition-duration: 0.3s;
+}
+
+#placeBet:not(:hover){
+    background: rgb(67, 83, 90); 
+    transition-duration: 0.3s;
+}
+
+h1{
+    font-family: bjFont;
+    
+    font-size: 25px;
+}
+
+#desc{
+    text-align:center;
+    font-weight:bold;
+}
+
+h3{
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    height: 150px;
+}
+
+#oneor11{
+    display: none;
+}
+
+#oneor11too{
+    display: none;
+}
+#startOver{
+    display: none;
+}
+
+#hitButt{
+    display: none;
+}
+
+#standButt{
+    display: none;
+}
+
+#placeBet{
+    display: none;
+}
+
+#bet{
+    display: none;
+}
+
+#funds{
+    display:none;
+}
+
